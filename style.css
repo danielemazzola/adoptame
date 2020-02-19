@@ -1,0 +1,258 @@
+/*paleta de colores
+#21243d
+#ff7c7c
+#ffd082
+#88e1f2
+*/
+body{
+  font-family: Roboto;
+  border:0;
+  margin:0;
+  background-color: #f1fcfc;
+}
+.header{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  position: relative;
+  background-color: #88e1f2;
+  border-bottom: dashed;
+  border-color:#ff7c7c;
+}
+.contenedor{
+  width: 100%;
+  margin-top:5px;
+}
+.barra_nav{
+  width: 100%;
+}
+
+nav ul{
+  background-color:#21243d;
+}
+nav ul li{
+  display:inline;
+}
+li a{
+  text-align: center;
+  color: #21243d;
+  text-decoration: none;
+  margin-left: 2em;
+  margin-right: 1em;
+  color: #21243d;
+}
+.nombreUsuario{
+  color:white;
+  padding-right: 2em;
+}
+.circulo_logo{
+  display: flex;
+  width: 7em;
+  height: 7em;
+  border-radius: 7em;
+  background-color: #ffd082;
+  margin-left: 1em;
+  margin-top: 1em;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  border: dashed white 3px;
+
+}
+
+.logo{
+  font-family: 'Gloria Hallelujah', cursive;
+  text-decoration: none;
+  color:white;
+  position: absolute;
+  padding: 1.3em;
+  padding-top:2em;
+  padding-bottom:2em;
+}
+.iconMenu{
+  display: flex;
+}
+div.iconMenu{
+  justify-content: flex-end;
+}
+.icono_menu{
+  cursor:pointer;
+  margin-top:-3em;
+  margin-right:1em;
+  width: 3em;
+}
+.icono_menu1{
+  cursor:pointer;
+  margin-top:-1em;
+  margin-right:1.6em;
+  width: 1.5em;
+  margin-bottom:1em;
+}
+
+.show{
+  display: flex;
+  align-content:center;
+  padding-top:1em;
+  margin-top:1%;
+  background-color: rgba(0, 207, 247, 1);
+}
+.contenedor_imagen{
+  height: 30em;
+  border-radius: 1em;
+  border:dashed 0.2em #ffd082;;
+  margin-top: 3em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  margin-bottom:2em;
+  background-color: white;
+
+}
+Form{
+display:flex;
+justify-content:center;
+align-items:center;
+padding-top:5em;
+padding-bottom: 4em;
+}
+.contenedor_imagenForm{
+  height: 30em;
+  border-radius: 1em;
+  border:dashed 0.2em white;
+  display:flex;
+  width:20em;
+  height:auto;
+  justify-content:center;
+  align-items:center;
+  background-color: #ffd082;
+  padding:1em;
+
+}.cuadroTexto{
+  border-radius:1em;
+  margin: 0.5em;
+  margin-right: auto;
+}
+
+.texto{
+  text-align:end;
+}
+.imagen{
+  border-radius: 100%;
+  height: 12em;
+  width: 12em;
+  border:dashed #21243d;
+}
+#botones{
+  margin-top: 3em;
+}
+div.imagen{
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  margin-left: 8%;
+  margin-top: 8%;
+  border:dashed white;
+}
+.file{
+  position: absolute;
+  margin-bottom: 1em;
+}
+.upFile{
+  margin: 0.5em;
+}
+.descripcion{
+  margin:1em;
+}
+
+.contenedor_descripcion{
+  border-radius: 1em;
+  border:dashed 0.2em #ffd082;;
+  margin-top: 13em;
+  margin-right: 3em;
+  margin-left: 3em;
+  background-color: white;
+  position: absolute;
+}
+
+.titulo{
+  margin:3em;
+}
+#titulo{
+  display: flex;
+  justify-content: center;
+}
+#descripcion{
+  display: flex;
+  justify-content: center;
+}
+#boton_atras{
+  display:flex;
+  position: absolute;
+  justify-content: flex-end;
+  margin:2em;
+
+}
+footer{
+  width:100%;
+  height:60px;
+  background-color:#21243d;
+  color: #ffd082;
+  padding-top: auto;
+
+}
+
+footer p{
+  margin-left:0.5em;
+}
+
+@media screen and (max-width:480px){
+  nav ul li{
+    display:none;
+  }
+  .icono_menu1{
+    display:none;
+  }
+  nav ul{
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
+
+}
+@media screen and (min-width:481px) and (max-width:760px){
+  nav ul li{
+    display:none;
+  }
+  .icono_menu1{
+    display:none;
+  }
+  nav ul{
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
+}
+@media screen and (min-width:761px){
+  .icono_menu{
+    display: none;
+  }
+  .icono_menu1{
+    display:none;
+  }
+  li a{
+    color:#ffd082
+  }
+  div.imagen{
+    position: absolute;
+    border:dashed white;
+    margin-left:1em;
+    margin-top:1em;
+    display: block;
+  }
+  .imagen{
+    border-radius: 100%;
+    height: 24em;
+    width: 24em;
+    border:dashed #21243d;
+  }
+  .descripcion{
+    margin-left: 30em;
+    margin-top: 2em;
+}

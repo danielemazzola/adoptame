@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <title>AdoptaMe</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class=contenedor>
+       <nav class="barra_nav">
+        <div class="circulo_logo">
+          <a class="logo" href="../index.html"><h3>AdoptaMe</h3></a>
+          </div>
+        </div>
+      <div class="contenedor_descripcion">
+        <div class="descripcion_who">
+          <h3 id="titulo">Quienes somos</h3>
+          <p id="descripcion">Somos un equipo de desarrolladores intensionados en brindar una solucion a nuestros amigos los Animales. De aquí nace la idea de proporcionar una opciona para adoptar un Gran amigo de forma segura; los dueños pueden conocer un poco mejor a la futura familia de quienes serán sus nuevos cuidadores.</p>
+        </div>
+        <input type="button" value="Volver atras" onclick="history.go(-1);">
+      </div>
+    </header>
+    <footer class="who">
+      <p>Copyright &copy; 2020 todos los derechos reservados.</p>
+    </footer>
+    <script src="../java/jquery.js"></script>
+ </body>
+</html>
